@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+}
+
+#root{
+  min-width: 100%;
+  min-height: 100vh;
+  background-image: url('./pexels-asim-alnamat-32997.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.home>h1{
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+.home h3{
+  margin-bottom: 20px;
+  letter-spacing: 1;
+  font-weight: 200;
+}
+
+.button{
+  padding: 5px 10px;
+  font-weight: 200;
+  border-radius: 7px;
+  border: #2177b4;
+  background-color: #2177b4;
+  color: aliceblue;
+  transition: all 0.2s;
+}
+
+.button:hover{
+  box-shadow: 5px 5px 20px #3bb9eb;
+  background-color: #3bb9eb;
+}
+
+.buttons{
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.form{
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.form h2{
+  margin: 10px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+.form1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+}
+
+.forminput{
+  display: flex;
+  width: 100%;
+  margin-bottom: 3vh;
+  justify-content: space-between;
+  letter-spacing: 2px;
+}
+
+input{
+  padding: 5px 13px 5px 2px;
+  border-radius: 7px;
+  outline: none;
+  border-style: none;
+}
+
+.formul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+}
+
+.student{
+  margin-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: aliceblue;
+  letter-spacing: 4px;
+  font-weight: 200;
+}
+
+.student h1{
+  font-weight: 200;
+  margin-bottom: 10vh;
+}
+
+.student ul{
+  list-style: none;
+  width: 100%;
+  letter-spacing: 1px;
+}
+
+.student ul li{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3vh;
+  margin-right: 20vw;
+}
+
+.liform{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:30vw;
+}
+
+.teacher{
+  color: aliceblue;
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 5vw;
+}
+
+.teachinput{
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cardul{
+  margin-top: 30px;
+}
+
+.card{
+  background-color: #0d2332;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  padding: 10px 40px 10px 20px;
+  letter-spacing: 1px;
+}
+
+.answer{
+  list-style: none;
+  margin-bottom: 10px;
+} 
+
+.answer li{
+  margin-bottom: 10px;
+}
+
+.teacher h1{
+  letter-spacing: 4px;
+  margin-bottom: 50px;
+  font-weight: 200;
+}
+
+.extra{
+  margin-bottom: 40px;
+}
