@@ -11,6 +11,12 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+### `flask run`
+
+Runs the app.py file which is necessary to connect to MongoDB and to make API calls.
+
+Also set URI in .env file as your mongo cluster uri to connect to your mongoDB.
+
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
